@@ -1,0 +1,70 @@
+* {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.header {
+  border-top: 3px #FECA17 solid;
+}
+
+.logo img {
+  height: 64px;
+}
+
+.form-control, .form-select {
+  padding: .6rem .75rem !important;
+}
+
+.form-check-input[type=radio] {
+  border-radius: 0 !important;
+}
+
+.form-check-input:checked {
+  background-color: #FECA17 !important;
+  border-color: #FECA17 !important;
+}
+
+.form-check-input:checked[type=radio] {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
+}
+
+.form-control:focus, .form-select:focus, .form-check-input:focus {
+  border-color: #ffc107 !important;
+  box-shadow: 0 0 0 0.25rem rgb(255 193 7 / 27%) !important;
+}
+
+.input-icon {
+  width: 20px;
+  color: #adb5bd;
+}
+
+.fw-medium {
+  font-weight: 600;
+}
+
+.information {
+  position: relative;
+}
+
+.information:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: #ffc107;
+  position: absolute;
+  top: -7px;
+  left: calc(50% - 7px);
+  transform: rotate(45deg);
+}
+
+.select2-container--bootstrap-5 .select2-selection {
+  min-height: calc(1.5em + 0.75rem + 11px) !important;
+}
+
+.select2-container--bootstrap-5 .select2-selection--single {
+  padding: .6rem 2.25rem .6rem .75rem !important;
+}
+
+img.img-flag {
+  height: 15px;
+  width: 20px;
+}
